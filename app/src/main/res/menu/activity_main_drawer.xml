@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Beranda"
+            android:title="Beranda"
+            android:icon="@drawable/ic_home"/>
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Tentang"
+            android:title="Tentang HTQ"
+            android:icon="@drawable/ic_group"/>
+    </group>
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Metode"
+            android:title="Metode HTQ"
+            android:icon="@drawable/ic_assignment"/>
+    </group>
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Kisah"
+            android:title="Kisah Penghafal Quran"
+            android:icon="@drawable/ic_receipt"/>
+    </group>
+    <group
+        android:id="@+id/grp5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Keistimewaan"
+            android:title="Keistimewaan Penghafal Quran"
+            android:icon="@drawable/ic_star"/>
+    </group>
+    <group
+        android:id="@+id/grp6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Donasi"
+            android:title="Donasi"
+            android:icon="@drawable/ic_favorite"/>
+    </group>
+
+</menu>
